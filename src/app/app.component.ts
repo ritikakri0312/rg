@@ -25,7 +25,7 @@ export class AppComponent {
     type == 'add' ? this.count++ : this.count--
   }
 
-  name = "peter"
+  name = "petewa"
   disable = false;
 
   show = "yes"
