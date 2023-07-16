@@ -11,6 +11,8 @@ import { UserListComponent } from './user-list/user-list.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { CountryListComponent } from './country-list/country-list.component';
 import { LoginComponent } from './login/login.component';
+import { HeaderComponent } from './header/header.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,9 +24,11 @@ import { LoginComponent } from './login/login.component';
 
     StudentListComponent,
     CountryListComponent,
-    LoginComponent
+    LoginComponent,
+    HeaderComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     UserAuthModule
   ],

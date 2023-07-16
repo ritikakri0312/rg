@@ -91,4 +91,23 @@
 </ul>
 <h1 [style.color]="colorBinding" [style.backgroundColor] = "bgColor">{{title}}</h1>
 <button (click) = "updateColor()">Update color</button>
+<app-header></app-header>
+
+<form #basicForm = "ngForm" (ngSubmit) = "getData23(basicForm.value)">
+  <input type="text" ngModel name="user" placeholder="Enter User Name"/>
+  <br/><br/>
+  <input type="text" ngModel name="email" placeholder="Enter User Email"/>
+  <br/><br/>
+  <input type="text" ngModel name="password" placeholder="Enter User password"/>
+  <br/><br/>
+  <button>Register</button>
+
+</form>
+
+<ul>
+  <li>{{data23.user}}</li>
+  <li>{{data23.email}}</li>
+  <li>{{data23.password}}</li>
+</ul>
+
 

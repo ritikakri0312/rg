@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import {NgForm} from '@angular/forms'
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -52,6 +52,14 @@ export class AppComponent {
   updateColor(){
     this.colorBinding = "blue"
     this.bgColor = "orange"
+  }
+  
+  data23: any = {};
+  getData23(data:NgForm){
+    console.warn(data)
+    this.data23 = data
+
+
   }
 
 
