@@ -13,6 +13,9 @@ import { CountryListComponent } from './country-list/country-list.component';
 import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {MatButtonModule} from  '@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 @NgModule({
   declarations: [
@@ -21,8 +24,7 @@ import { FormsModule } from '@angular/forms';
     
     UserListComponent,
     
-
-    StudentListComponent,
+  StudentListComponent,
     CountryListComponent,
     LoginComponent,
     HeaderComponent
@@ -30,7 +32,12 @@ import { FormsModule } from '@angular/forms';
   imports: [
     FormsModule,
     BrowserModule,
-    UserAuthModule
+    UserAuthModule,
+    MatSlideToggleModule,
+    MatButtonModule,
+    BrowserAnimationsModule
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
