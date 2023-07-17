@@ -87,13 +87,15 @@ export class AppComponent {
 //   this.data = Math.floor(Math.random()*10)
 // }
 
-title = 'Reusable Component'
-userDetails = [
-  {name : 'Kanha ji', email : 'kanhaji@test.com'},
-  {name : 'Ritika gupta', email : 'ritika@test.com'},
-  {name : 'Hemant Ranjan gupta', email : 'hemant@test.com'},
-  {name : 'shubhanshu gupta', email : 'shubhanshu@test.com'}
-]
+// title = 'Reusable Component'
+// userDetails = [
+//   {name : 'Kanha ji', email : 'kanhaji@test.com'},
+//   {name : 'Ritika gupta', email : 'ritika@test.com'},
+//   {name : 'Hemant Ranjan gupta', email : 'hemant@test.com'},
+//   {name : 'shubhanshu gupta', email : 'shubhanshu@test.com'}
+// ]
+
+title = 'Send Data Child To Parent Component'
 
 
 }
