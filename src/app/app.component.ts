@@ -63,10 +63,37 @@ export class AppComponent {
   // }
 
 
-title= 'Toggle Element';
-display = true
-toggle(){
-   this.display=!this.display;
-}
+// title= 'Toggle Element';
+// display = true
+// toggle(){
+//    this.display=!this.display;
+// }
+//  title = 'todo list with angular';
+//  list:any[]=[];
+//  addTask(item:string)
+//  {
+//   this.list.push({id:this.list.length,name:item});
+//   console.warn(this.list)
+//  }
+//  removeTask(id:number)
+//  {
+//      console.warn(id)
+//      this.list = this.list.filter(item =>item.id!==id)
+//  }
+  
+// title = 'Send Data Child To Parent component'
+// data = 10;
+// UpdateChild(){
+//   this.data = Math.floor(Math.random()*10)
+// }
+
+title = 'Reusable Component'
+userDetails = [
+  {name : 'Kanha ji', email : 'kanhaji@test.com'},
+  {name : 'Ritika gupta', email : 'ritika@test.com'},
+  {name : 'Hemant Ranjan gupta', email : 'hemant@test.com'},
+  {name : 'shubhanshu gupta', email : 'shubhanshu@test.com'}
+]
+
 
 }

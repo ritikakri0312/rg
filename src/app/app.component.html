@@ -113,7 +113,7 @@
 
 
  -->
-<h1>{{title}}</h1>
+<!-- <h1>{{title}}</h1>
 <button (click) = "toggle()">Toggle</button>
  <div  *ngIf = "display">
   Heading Tag
@@ -194,5 +194,26 @@
   <button mat-button color="warn">Warn</button>
   <button mat-button disabled>Disabled</button>
   <a mat-button href="https://www.google.com/" target="_blank">Link</a>
-</div>
+</div> -->
+<!-- <h1>{{title}}</h1>
+<input type="text" placeholder="enter new task" #task />
+<br/><br/>
+<button (click)= "addTask(task.value)">Add Task</button>
+<ul *ngFor="let item of list">
+  <li>{{item.name}}<button (click) = "removeTask(item.id)">Remove</button></li>
+</ul> -->
+
+<!-- <h1>{{title}}</h1>
+<app-child [item] = "data"></app-child>
+<app-child [item] = "data"></app-child>
+<app-child [item] = "data"></app-child>
+
+<button (click) = "UpdateChild()">Update Child Component</button> -->
+<h1>{{title}}</h1>
+
+<ul *ngFor = "let user of userDetails">
+
+  <app-user-details [item] = 'user' ></app-user-details>
+</ul>
+
 
