@@ -95,7 +95,23 @@ export class AppComponent {
 //   {name : 'shubhanshu gupta', email : 'shubhanshu@test.com'}
 // ]
 
-title = 'Send Data Child To Parent Component'
+// title = 'Send Data Child To Parent Component';
+// data = "x";
+// updateData(item : string){
+//   console.warn(item)
+//   this.data = item;
+// }
+
+// title = 'two way binding';
+// name : any;
+
+// title = 'Template reference Variable';
+// getVal(item:HTMLInputElement)
+// {
+//   console.warn(item)
+// }
+
+
 
 
 }

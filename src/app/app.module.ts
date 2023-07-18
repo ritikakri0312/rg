@@ -17,6 +17,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatButtonModule} from  '@angular/material/button';
 import { ChildComponent } from './child/child.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import { Child2Component } from './child2/child2.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { UserDetailsComponent } from './user-details/user-details.component';
     LoginComponent,
     HeaderComponent,
     ChildComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    Child2Component
   ],
   imports: [
     FormsModule,
@@ -39,6 +41,7 @@ import { UserDetailsComponent } from './user-details/user-details.component';
     UserAuthModule,
     MatSlideToggleModule,
     MatButtonModule,
+
    
     
 
